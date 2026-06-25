@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* Тёмный, атмосферный фон в тон картинке */
+    background-color: #1a1111;
+    color: #e0e0e0;
+    padding: 20px;
+    /* Отступ снизу, чтобы футер не перекрывал контент */
+    padding-bottom: 80px;
+}
+
+header {
+    background-color: #2a1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #8b0000; /* Темно-красный акцент */
+    margin-bottom: 20px;
+}
+
+/* Стилизация списков меню навигации */
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    color: #ff4d4d; /* Контрастный красный для ссылок */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #221818; /* Темная подложка для контента */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    text-align: center; /* Центрируем контент для аккуратности */
+}
+
+main h1 {
+    color: #ff4d4d;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+/* Стилизация картинок, чтобы они не ломали адаптивность */
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+
+/* Кнопка «бип» */
+button {
+    background-color: #8b0000;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+footer {
+    background-color: #110a0a;
+    color: #777;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #331a1a;
+}
