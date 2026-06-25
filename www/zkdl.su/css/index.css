@@ -11,7 +11,7 @@ header {
     text-align: center;
     border-bottom: 4px solid blueviolet;
     background-color: gray;
-    color:darkmagenta;
+    color: darkmagenta;
     line-height: 35px;
     margin-bottom: 50px;
 }
@@ -25,7 +25,7 @@ main {
 sidebar {
     margin-left: 5%;
     margin-right: 75%;
-    color:blueviolet;
+    color: blueviolet;
     background-color: bisque;
     border: 20px;
     border-color: blueviolet;
@@ -36,4 +36,23 @@ footer {
     border-bottom: 0;
     background-color: gray;
     border-top: 4px solid blueviolet;
+}
+#nav {
+    list-style: none;
+    display: block;
+}
+#nav li {
+    display: inline;
+    padding: 0 15px;
+}
+#nav li:hover {
+    background-color: cadetblue;
+}
+#side {
+    margin-left: 5%;
+    margin-right: 75%;
+    color: blueviolet;
+    background-color: bisque;
+    border: 20px;
+    border-color: blueviolet;
 }
