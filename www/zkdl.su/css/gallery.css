@@ -5,7 +5,7 @@
 body {
   background-color: dimgray;
 }
-.galler {
+#galler {
   width: 100%;
   height: 35px;
   text-align: center;
